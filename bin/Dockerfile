@@ -1,4 +1,4 @@
-FROM golang:1.14.3-alpine
+FROM golang:1.21.12-alpine
 ENV FLAG="THIS IS NOT THE FLAG..."
 RUN mkdir /app
 WORKDIR /app
